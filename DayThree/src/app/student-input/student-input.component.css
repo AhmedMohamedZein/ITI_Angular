@@ -1,0 +1,46 @@
+input{
+    width: 100%;
+    padding: 9px 15px;
+    margin: 8px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    box-sizing: border-box;
+    border: 2px solid #CFB997;
+    border-radius: 4px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    color: rgb(167, 43, 43);
+    margin-bottom: 8px;
+}
+
+.formStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formStyle button {
+    width: 30%;
+    padding: 9px 15px;
+    color: black;
+    font-size: 15px;
+    background-color: #CFB997;
+    border: 2px solid #CFB997;
+}
+
+.formStyle button:hover {
+    width: 30%;
+    padding: 9px 15px;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #A9907E;
+    border: 2px solid #CFB997;
+}

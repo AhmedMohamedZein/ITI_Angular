@@ -1,0 +1,20 @@
+
+
+
+<div class="container">
+    <div class="formStyle">
+        <input type="text" 
+                placeholder="Enter student name" 
+                [(ngModel)]="studentName"
+                required
+        />
+        <span *ngIf="studentName.length < 3 && studentName">Invalide student name</span>
+        <input type="text" 
+                placeholder="Enter student age" 
+                [(ngModel)]="studentAge"
+                required
+        />
+        <span *ngIf="((+studentAge > 40) || (+studentAge < 20) && +studentAge)">Invalid student age</span>
+        <button type="button" (click)="addStudent()">Add</button>
+    </div>
+</div>
