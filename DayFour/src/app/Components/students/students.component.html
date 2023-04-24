@@ -1,0 +1,20 @@
+<div class="container d-flex justify-content-center align-items-center" style="height: 70vh; width: 100vh;">
+    <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students ; index as i">
+            <td>{{ i + 1 }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.age }}</td>
+            <td>{{ student.email }}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>
